@@ -1,4 +1,4 @@
-import locationBg from "@assets/generated_images/dartmoor_landscape_background_6d2d9057.png";
+import locationBg from "@assets/generated_images/dartmoor_landscape_background_6d2d9057.jpg";
 import { MapPin, Clock } from "lucide-react";
 
 export default function LocationSection() {

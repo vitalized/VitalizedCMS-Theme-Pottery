@@ -1,4 +1,4 @@
-import craftsmanshipImage from "@assets/generated_images/pottery_craftsmanship_background_b336f122.png";
+import craftsmanshipImage from "@assets/generated_images/pottery_craftsmanship_background_b336f122.jpg";
 
 export default function CraftsmanshipSection() {
   return (

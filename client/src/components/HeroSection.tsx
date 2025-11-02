@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@assets/generated_images/pottery_bowls_hero_background_7c0e0809.png";
+import heroImage from "@assets/generated_images/pottery_bowls_hero_background_7c0e0809.jpg";
 
 export default function HeroSection() {
   return (

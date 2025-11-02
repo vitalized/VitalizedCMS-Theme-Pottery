@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import collectionBg from "@assets/generated_images/pottery_bowls_hero_background_7c0e0809.png";
+import collectionBg from "@assets/generated_images/pottery_bowls_hero_background_7c0e0809.jpg";
 
 const products = [
   {

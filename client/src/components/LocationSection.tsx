@@ -18,12 +18,12 @@ export default function LocationSection() {
           Experience the making process firsthand in our workshop on the edge of Dartmoor National Park.
         </p>
 
-        <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-md p-8 md:p-12 space-y-8">
+        <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-md p-8 md:p-12 space-y-8 font-sans text-base">
           <div className="flex items-start gap-4 text-left">
             <MapPin className="h-6 w-6 text-white/80 flex-shrink-0 mt-1" />
             <div>
-              <h3 className="font-sans text-base font-medium text-white mb-2">Location</h3>
-              <p className="font-sans text-base text-white/80 leading-relaxed">
+              <h3 className="font-medium text-white mb-2">Location</h3>
+              <p className="text-white/80 leading-relaxed">
                 The Old Mill House
                 <br />
                 Widecombe-in-the-Moor
@@ -36,8 +36,8 @@ export default function LocationSection() {
           <div className="flex items-start gap-4 text-left">
             <Clock className="h-6 w-6 text-white/80 flex-shrink-0 mt-1" />
             <div>
-              <h3 className="font-sans text-base font-medium text-white mb-2">Studio Hours</h3>
-              <p className="font-sans text-base text-white/80 leading-relaxed">
+              <h3 className="font-medium text-white mb-2">Studio Hours</h3>
+              <p className="text-white/80 leading-relaxed">
                 Thursday - Saturday: 10am - 5pm
                 <br />
                 Sunday: 11am - 4pm

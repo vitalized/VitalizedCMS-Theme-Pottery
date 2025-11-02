@@ -13,31 +13,31 @@ export default function Navigation() {
             Dartmoor Pottery
           </div>
 
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-8 text-sm uppercase tracking-wider text-white/90">
             <a
               href="#collection"
-              className="text-sm uppercase tracking-wider text-white/90 hover:text-white transition-colors"
+              className="hover:text-white transition-colors"
               data-testid="link-collection"
             >
               Collection
             </a>
             <a
               href="#about"
-              className="text-sm uppercase tracking-wider text-white/90 hover:text-white transition-colors"
+              className="hover:text-white transition-colors"
               data-testid="link-about"
             >
               About
             </a>
             <a
               href="#studio"
-              className="text-sm uppercase tracking-wider text-white/90 hover:text-white transition-colors"
+              className="hover:text-white transition-colors"
               data-testid="link-studio"
             >
               Studio
             </a>
             <a
               href="#contact"
-              className="text-sm uppercase tracking-wider text-white/90 hover:text-white transition-colors"
+              className="hover:text-white transition-colors"
               data-testid="link-contact"
             >
               Contact
@@ -57,10 +57,10 @@ export default function Navigation() {
 
         {mobileMenuOpen && (
           <div className="md:hidden mt-6 pt-6 border-t border-white/20">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 text-sm uppercase tracking-wider text-white/90">
               <a
                 href="#collection"
-                className="text-sm uppercase tracking-wider text-white/90 hover:text-white transition-colors"
+                className="hover:text-white transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
                 data-testid="link-mobile-collection"
               >
@@ -68,7 +68,7 @@ export default function Navigation() {
               </a>
               <a
                 href="#about"
-                className="text-sm uppercase tracking-wider text-white/90 hover:text-white transition-colors"
+                className="hover:text-white transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
                 data-testid="link-mobile-about"
               >
@@ -76,7 +76,7 @@ export default function Navigation() {
               </a>
               <a
                 href="#studio"
-                className="text-sm uppercase tracking-wider text-white/90 hover:text-white transition-colors"
+                className="hover:text-white transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
                 data-testid="link-mobile-studio"
               >
@@ -84,7 +84,7 @@ export default function Navigation() {
               </a>
               <a
                 href="#contact"
-                className="text-sm uppercase tracking-wider text-white/90 hover:text-white transition-colors"
+                className="hover:text-white transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
                 data-testid="link-mobile-contact"
               >

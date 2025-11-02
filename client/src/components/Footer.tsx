@@ -7,24 +7,24 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div>
             <h3 className="font-serif text-xl mb-4 text-card-foreground">Shop</h3>
-            <ul className="space-y-3">
+            <ul className="space-y-3 font-sans text-sm text-muted-foreground">
               <li>
-                <a href="#" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-bowls">
+                <a href="#" className="hover:text-foreground transition-colors" data-testid="link-bowls">
                   Bowls
                 </a>
               </li>
               <li>
-                <a href="#" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-cups">
+                <a href="#" className="hover:text-foreground transition-colors" data-testid="link-cups">
                   Cups & Mugs
                 </a>
               </li>
               <li>
-                <a href="#" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-plates">
+                <a href="#" className="hover:text-foreground transition-colors" data-testid="link-plates">
                   Plates & Platters
                 </a>
               </li>
               <li>
-                <a href="#" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-vases">
+                <a href="#" className="hover:text-foreground transition-colors" data-testid="link-vases">
                   Vases
                 </a>
               </li>
@@ -33,24 +33,24 @@ export default function Footer() {
 
           <div>
             <h3 className="font-serif text-xl mb-4 text-card-foreground">About</h3>
-            <ul className="space-y-3">
+            <ul className="space-y-3 font-sans text-sm text-muted-foreground">
               <li>
-                <a href="#" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-our-story">
+                <a href="#" className="hover:text-foreground transition-colors" data-testid="link-our-story">
                   Our Story
                 </a>
               </li>
               <li>
-                <a href="#" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-process">
+                <a href="#" className="hover:text-foreground transition-colors" data-testid="link-process">
                   The Process
                 </a>
               </li>
               <li>
-                <a href="#" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-workshops">
+                <a href="#" className="hover:text-foreground transition-colors" data-testid="link-workshops">
                   Workshops
                 </a>
               </li>
               <li>
-                <a href="#" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-sustainability">
+                <a href="#" className="hover:text-foreground transition-colors" data-testid="link-sustainability">
                   Sustainability
                 </a>
               </li>
@@ -97,11 +97,11 @@ export default function Footer() {
           <p className="font-sans text-sm text-muted-foreground">
             © 2025 Dartmoor Pottery. All rights reserved.
           </p>
-          <div className="flex gap-6">
-            <a href="#" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-privacy">
+          <div className="flex gap-6 font-sans text-sm text-muted-foreground">
+            <a href="#" className="hover:text-foreground transition-colors" data-testid="link-privacy">
               Privacy Policy
             </a>
-            <a href="#" className="font-sans text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-terms">
+            <a href="#" className="hover:text-foreground transition-colors" data-testid="link-terms">
               Terms of Service
             </a>
           </div>

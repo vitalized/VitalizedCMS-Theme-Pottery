@@ -11,13 +11,20 @@ export default function BrandStorySection() {
 
           <div className="lg:col-span-3 space-y-6 font-sans text-base md:text-lg leading-relaxed text-foreground">
             <p>
-              In our small studio nestled in the Devon countryside, we create pottery that honors both tradition and contemporary life. Each piece is shaped by hand, guided by generations of craft knowledge and a deep respect for the materials we work with.
+              In our small studio nestled in the Devon countryside, we create
+              pottery that honors both tradition and contemporary life. Each
+              piece is shaped by hand, guided by generations of craft knowledge
+              and a deep respect for the materials we work with.
             </p>
             <p>
-              Our ceramics are made to be used daily—to hold your morning coffee, serve family meals, or bring beauty to quiet moments. We believe that functional objects should nourish both body and soul.
+              Our ceramics are made to be used daily—to hold your morning
+              coffee, serve family meals, or bring beauty to quiet moments. We
+              believe that functional objects should nourish both body and soul.
             </p>
             <p className="text-muted-foreground">
-              From locally sourced clay to hand-mixed glazes inspired by Dartmoor's ancient landscape, every choice we make reflects our commitment to sustainability and timeless design.
+              From locally sourced clay to hand-mixed glazes inspired by
+              Dartmoor's ancient landscape, every choice we make reflects our
+              commitment to sustainability and timeless design.
             </p>
           </div>
         </div>

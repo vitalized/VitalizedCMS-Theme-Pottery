@@ -12,7 +12,7 @@ export default function CraftsmanshipSection() {
 
       <div className="flex items-center justify-center bg-background p-8 md:p-12 lg:p-16">
         <div className="max-w-xl font-sans">
-          <h2 className="font-serif font-light text-4xl md:text-5xl lg:text-6xl text-foreground mb-8 tracking-tight leading-tight">
+          <h2 className="text-foreground mb-8 leading-tight">
             Traditional Craft,
             <br />
             Modern Life

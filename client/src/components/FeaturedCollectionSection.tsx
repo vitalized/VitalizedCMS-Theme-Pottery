@@ -34,7 +34,7 @@ export default function FeaturedCollectionSection() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-8">
         <div className="text-center mb-16">
-          <h2 className="font-serif font-light text-5xl md:text-6xl text-white mb-6 tracking-tight">
+          <h2 className="text-white mb-6">
             Featured Collection
           </h2>
           <p className="font-sans text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
@@ -50,7 +50,7 @@ export default function FeaturedCollectionSection() {
               data-testid={`card-product-${product.id}`}
             >
               <CardContent className="p-8">
-                <h3 className="font-serif text-2xl text-white mb-3">
+                <h3 className="text-white mb-3">
                   {product.name}
                 </h3>
                 <p className="font-sans text-base text-white/80 mb-4 leading-relaxed">

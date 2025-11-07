@@ -11,7 +11,7 @@ export default function LocationSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/60" />
 
       <div className="relative z-10 max-w-2xl mx-auto px-8 text-center">
-        <h2 className="font-serif font-light text-5xl md:text-6xl text-white mb-8 tracking-tight">
+        <h2 className="text-white mb-8">
           Visit Our Studio
         </h2>
         <p className="font-sans text-lg md:text-xl text-white/90 mb-12 leading-relaxed">
@@ -22,7 +22,7 @@ export default function LocationSection() {
           <div className="flex items-start gap-4 text-left">
             <MapPin className="h-6 w-6 text-white/80 flex-shrink-0 mt-1" />
             <div>
-              <h3 className="font-medium text-white mb-2">Location</h3>
+              <h3 className="font-medium text-white mb-2 text-base">Location</h3>
               <p className="text-white/80 leading-relaxed">
                 The Old Mill House
                 <br />
@@ -36,7 +36,7 @@ export default function LocationSection() {
           <div className="flex items-start gap-4 text-left">
             <Clock className="h-6 w-6 text-white/80 flex-shrink-0 mt-1" />
             <div>
-              <h3 className="font-medium text-white mb-2">Studio Hours</h3>
+              <h3 className="font-medium text-white mb-2 text-base">Studio Hours</h3>
               <p className="text-white/80 leading-relaxed">
                 Thursday - Saturday: 10am - 5pm
                 <br />

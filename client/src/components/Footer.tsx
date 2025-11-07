@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div>
-            <h3 className="font-serif text-xl mb-4 text-card-foreground">Shop</h3>
+            <h3 className="mb-4 text-card-foreground">Shop</h3>
             <ul className="space-y-3 font-sans text-sm text-muted-foreground">
               <li>
                 <a href="#" className="hover:text-foreground transition-colors" data-testid="link-bowls">
@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-serif text-xl mb-4 text-card-foreground">About</h3>
+            <h3 className="mb-4 text-card-foreground">About</h3>
             <ul className="space-y-3 font-sans text-sm text-muted-foreground">
               <li>
                 <a href="#" className="hover:text-foreground transition-colors" data-testid="link-our-story">
@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-serif text-xl mb-4 text-card-foreground">Connect</h3>
+            <h3 className="mb-4 text-card-foreground">Connect</h3>
             <ul className="space-y-3 mb-6">
               <li className="font-sans text-sm text-muted-foreground">
                 hello@dartmoorpottery.co.uk

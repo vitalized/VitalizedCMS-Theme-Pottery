@@ -4,7 +4,7 @@ export default function BrandStorySection() {
       <div className="max-w-7xl mx-auto px-8">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-16">
           <div className="lg:col-span-2">
-            <blockquote className="font-serif text-3xl md:text-4xl font-light leading-tight text-foreground">
+            <blockquote className="text-foreground">
               "Every piece tells a story of earth, fire, and human touch."
             </blockquote>
           </div>

@@ -255,6 +255,11 @@
     @apply font-serif;
     @apply text-xl md:text-2xl;
   }
+
+  blockquote {
+    @apply font-serif font-light leading-tight;
+    @apply text-3xl md:text-4xl;
+  }
 }
 
 /**

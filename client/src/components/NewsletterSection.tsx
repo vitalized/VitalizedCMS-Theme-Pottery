@@ -20,7 +20,7 @@ export default function NewsletterSection() {
   return (
     <section id="contact" className="py-20 md:py-32 bg-background">
       <div className="max-w-3xl mx-auto px-8 text-center prose prose-center mx-auto">
-        <h2 className="mb-6">
+        <h2 className="mb-6 leading-tight">
           Stay Connected
         </h2>
         <p className="text-muted-foreground mb-12 max-w-2xl mx-auto">

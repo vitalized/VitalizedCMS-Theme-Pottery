@@ -101,6 +101,78 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            '--tw-prose-body': 'hsl(var(--foreground))',
+            '--tw-prose-headings': 'hsl(var(--foreground))',
+            '--tw-prose-quotes': 'hsl(var(--foreground))',
+            color: 'hsl(var(--foreground))',
+            maxWidth: 'none',
+            h1: {
+              fontFamily: 'var(--font-serif)',
+              fontWeight: '300',
+              letterSpacing: '-0.025em',
+              lineHeight: '1.25',
+              fontSize: '3.75rem',
+              '@screen md': {
+                fontSize: '4.5rem',
+              },
+              '@screen lg': {
+                fontSize: '6rem',
+              },
+            },
+            h2: {
+              fontFamily: 'var(--font-serif)',
+              fontWeight: '300',
+              letterSpacing: '-0.025em',
+              lineHeight: '1.25',
+              fontSize: '2.25rem',
+              '@screen md': {
+                fontSize: '3rem',
+              },
+              '@screen lg': {
+                fontSize: '3.75rem',
+              },
+            },
+            h3: {
+              fontFamily: 'var(--font-serif)',
+              fontWeight: '400',
+              lineHeight: '1.25',
+              fontSize: '1.25rem',
+              '@screen md': {
+                fontSize: '1.5rem',
+              },
+            },
+            p: {
+              fontFamily: 'var(--font-sans)',
+              lineHeight: '1.625',
+              fontSize: '1rem',
+              '@screen md': {
+                fontSize: '1.125rem',
+              },
+            },
+            blockquote: {
+              fontFamily: 'var(--font-serif)',
+              fontWeight: '300',
+              lineHeight: '1.25',
+              fontSize: '1.875rem',
+              borderLeftWidth: '0',
+              fontStyle: 'normal',
+              quotes: 'none',
+              '@screen md': {
+                fontSize: '2.25rem',
+              },
+            },
+            'blockquote p:first-of-type::before': {
+              content: '""',
+            },
+            'blockquote p:last-of-type::after': {
+              content: '""',
+            },
+          },
+        },
+      },
     },
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],

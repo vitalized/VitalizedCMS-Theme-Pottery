@@ -3,13 +3,13 @@ export default function BrandStorySection() {
     <section id="about" className="py-20 md:py-32 lg:py-40 bg-background">
       <div className="max-w-7xl mx-auto px-8">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-16">
-          <div className="lg:col-span-2">
-            <blockquote className="text-foreground">
+          <div className="lg:col-span-2 prose">
+            <blockquote>
               "Every piece tells a story of earth, fire, and human touch."
             </blockquote>
           </div>
 
-          <div className="lg:col-span-3 space-y-6 text-foreground">
+          <div className="lg:col-span-3 prose space-y-6">
             <p>
               In our small studio nestled in the Devon countryside, we create
               pottery that honors both tradition and contemporary life. Each

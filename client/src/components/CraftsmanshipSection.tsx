@@ -11,13 +11,13 @@ export default function CraftsmanshipSection() {
       </div>
 
       <div className="flex items-center justify-center bg-background p-8 md:p-12 lg:p-16">
-        <div className="max-w-xl">
-          <h2 className="text-foreground mb-8 leading-tight">
+        <div className="max-w-xl prose">
+          <h2 className="mb-8">
             Traditional Craft,
             <br />
             Modern Life
           </h2>
-          <div className="text-foreground">
+          <div>
             <p className="mb-6">
               Each piece begins as raw clay on the wheel, shaped by skilled hands that understand the delicate balance between intention and intuition.
             </p>
@@ -25,7 +25,7 @@ export default function CraftsmanshipSection() {
               We fire our work slowly, allowing natural variations in glaze and form that make every piece unique. These beautiful imperfections are a reminder of the human touch behind each creation.
             </p>
           </div>
-          <p className="text-sm uppercase tracking-wider text-muted-foreground">
+          <p className="text-sm uppercase tracking-wider text-muted-foreground not-prose">
             Made in Devon since 2015
           </p>
         </div>

@@ -243,31 +243,6 @@
   body {
     @apply font-sans antialiased bg-background text-foreground;
   }
-
-  h1 {
-    @apply font-serif font-light tracking-tight leading-tight;
-    @apply text-6xl md:text-7xl lg:text-8xl;
-  }
-
-  h2 {
-    @apply font-serif font-light tracking-tight;
-    @apply text-4xl md:text-5xl lg:text-6xl;
-  }
-
-  h3 {
-    @apply font-serif;
-    @apply text-xl md:text-2xl;
-  }
-
-  blockquote {
-    @apply font-serif font-light leading-tight;
-    @apply text-3xl md:text-4xl;
-  }
-
-  p {
-    @apply font-sans leading-relaxed;
-    @apply text-base md:text-lg;
-  }
 }
 
 /**

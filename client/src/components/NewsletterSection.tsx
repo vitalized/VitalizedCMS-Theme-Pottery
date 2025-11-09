@@ -19,11 +19,11 @@ export default function NewsletterSection() {
 
   return (
     <section id="contact" className="py-20 md:py-32 bg-background">
-      <div className="max-w-3xl mx-auto px-8 text-center">
-        <h2 className="text-foreground mb-6">
+      <div className="max-w-3xl mx-auto px-8 text-center prose prose-center mx-auto">
+        <h2 className="mb-6">
           Stay Connected
         </h2>
-        <p className="font-sans text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed max-w-2xl mx-auto">
+        <p className="text-muted-foreground mb-12 max-w-2xl mx-auto">
           Subscribe to receive updates about new collections, studio workshops, and the occasional story from the wheel.
         </p>
 

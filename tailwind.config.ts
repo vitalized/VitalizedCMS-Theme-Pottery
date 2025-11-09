@@ -113,7 +113,7 @@ export default {
               fontFamily: 'var(--font-serif)',
               fontWeight: '300',
               letterSpacing: '-0.025em',
-              lineHeight: '1.25',
+              lineHeight: '1.1',
               fontSize: '3.75rem',
               '@screen md': {
                 fontSize: '4.5rem',
@@ -126,7 +126,7 @@ export default {
               fontFamily: 'var(--font-serif)',
               fontWeight: '300',
               letterSpacing: '-0.025em',
-              lineHeight: '1.25',
+              lineHeight: '1.1',
               fontSize: '2.25rem',
               '@screen md': {
                 fontSize: '3rem',
@@ -138,7 +138,7 @@ export default {
             h3: {
               fontFamily: 'var(--font-serif)',
               fontWeight: '400',
-              lineHeight: '1.25',
+              lineHeight: '1.1',
               fontSize: '1.25rem',
               '@screen md': {
                 fontSize: '1.5rem',
@@ -155,7 +155,7 @@ export default {
             blockquote: {
               fontFamily: 'var(--font-serif)',
               fontWeight: '300',
-              lineHeight: '1.25',
+              lineHeight: '1.1',
               fontSize: '1.875rem',
               borderLeftWidth: '0',
               fontStyle: 'normal',

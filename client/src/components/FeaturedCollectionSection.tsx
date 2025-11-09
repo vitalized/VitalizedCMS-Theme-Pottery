@@ -33,11 +33,11 @@ export default function FeaturedCollectionSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/60" />
 
       <div className="relative z-10 max-w-5xl mx-auto px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 prose prose-invert mx-auto">
           <h2 className="text-white mb-6">
             Featured Collection
           </h2>
-          <p className="font-sans text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-white/90 max-w-2xl mx-auto">
             Timeless pieces for everyday rituals
           </p>
         </div>
@@ -49,14 +49,14 @@ export default function FeaturedCollectionSection() {
               className="backdrop-blur-sm bg-white/10 border-white/20 overflow-hidden hover-elevate"
               data-testid={`card-product-${product.id}`}
             >
-              <CardContent className="p-8">
+              <CardContent className="p-8 prose prose-invert">
                 <h3 className="text-white mb-3">
                   {product.name}
                 </h3>
-                <p className="font-sans text-base text-white/80 mb-4 leading-relaxed">
+                <p className="text-white/80 mb-4">
                   {product.description}
                 </p>
-                <p className="font-sans text-lg font-medium text-white" data-testid={`text-price-${product.id}`}>
+                <p className="text-lg font-medium text-white not-prose" data-testid={`text-price-${product.id}`}>
                   {product.price}
                 </p>
               </CardContent>

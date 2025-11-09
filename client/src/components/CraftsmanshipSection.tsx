@@ -11,13 +11,13 @@ export default function CraftsmanshipSection() {
       </div>
 
       <div className="flex items-center justify-center bg-background p-8 md:p-12 lg:p-16">
-        <div className="max-w-xl font-sans">
+        <div className="max-w-xl">
           <h2 className="text-foreground mb-8 leading-tight">
             Traditional Craft,
             <br />
             Modern Life
           </h2>
-          <div className="text-base md:text-lg leading-relaxed text-foreground">
+          <div className="text-foreground">
             <p className="mb-6">
               Each piece begins as raw clay on the wheel, shaped by skilled hands that understand the delicate balance between intention and intuition.
             </p>

@@ -9,7 +9,7 @@ export default function BrandStorySection() {
             </blockquote>
           </div>
 
-          <div className="lg:col-span-3 space-y-6 font-sans text-base md:text-lg leading-relaxed text-foreground">
+          <div className="lg:col-span-3 space-y-6 text-foreground">
             <p>
               In our small studio nestled in the Devon countryside, we create
               pottery that honors both tradition and contemporary life. Each

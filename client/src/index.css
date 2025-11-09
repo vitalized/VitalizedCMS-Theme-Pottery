@@ -260,6 +260,11 @@
     @apply font-serif font-light leading-tight;
     @apply text-3xl md:text-4xl;
   }
+
+  p {
+    @apply font-sans leading-relaxed;
+    @apply text-base md:text-lg;
+  }
 }
 
 /**

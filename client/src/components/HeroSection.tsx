@@ -11,7 +11,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/40" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-8 text-center prose prose-invert mx-auto">
-        <h1 className="text-white mb-6 leading-tight">
+        <h1 className="text-white mb-6">
           Dartmoor
           <br />
           Pottery

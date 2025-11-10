@@ -11,7 +11,7 @@ export default function LocationSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/60" />
 
       <div className="relative z-10 max-w-2xl mx-auto px-8 text-center prose prose-invert">
-        <h2 className="text-white mb-8 leading-tight">
+        <h2 className="text-white mb-8">
           Visit Our Studio
         </h2>
         <p className="text-white/90 mb-12">
